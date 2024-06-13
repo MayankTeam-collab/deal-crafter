@@ -1,0 +1,48 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+    position: relative;
+    bottom: 250px;
+    left: 760px;
+
+    nav ul {
+        display: flex;
+        list-style: none;
+        gap: 20px;
+    }
+
+    nav ul li {
+        margin-left: 50px;
+        font-size: x-large;
+        color: white;
+    }
+
+    nav ul li:hover {
+        text-decoration: underline;
+        color: whitesmoke;
+    }
+
+    nav ul li a {
+        text-decoration: none;
+        color: white;
+        font-weight: bold;
+    }
+
+
+    .logo {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .logo img {
+        width: 30px;
+    }
+
+    .logo h1 {
+        font-size: 1.2rem;
+        font-weight: bold;
+    }
+}
