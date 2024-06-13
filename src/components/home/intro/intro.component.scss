@@ -18,19 +18,9 @@
     }
 }
 
-/* button {
-    background-color: transparent;
-    border: none;
-    cursor: pointer;
-} */
 
-.bar {
-    display: block;
-    width: 25px;
-    height: 3px;
-    background-color: white;
-    margin: 5px auto;
-}
+
+
 
 .hero {
     display: flex;
@@ -55,43 +45,11 @@
     margin-top: 10px;
 }
 
-.arrow {
-    width: 0;
-    height: 0;
-    border-left: 10px solid transparent;
-    border-right: 10px solid transparent;
-    border-top: 15px solid white;
-    margin: 20px auto;
-}
 
-footer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 20px;
-}
 
-.social-links {
-    display: flex;
-    gap: 20px;
-}
 
-.social-links button {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    padding: 10px;
-    border-radius: 50%;
-    background-color: #0066ff;
-    color: white;
-    font-weight: bold;
-    border: 2px solid white;
-}
 
-.social-links svg {
-    width: 20px;
-    height: 20px;
-}
+
 
 /* Animation */
 
@@ -129,23 +87,10 @@ footer {
     }
 }
 
-nav ul.active {
-    display: flex;
-    flex-direction: column;
-    position: absolute;
-    top: 70px;
-    right: 0;
 
-    width: 100%;
-    padding: 20px;
-    z-index: 1;
-}
+////////////////////////////////
 
-nav ul.active li {
-    margin-bottom: 10px;
-}
+@import url('https://fonts.googleapis.com/css2?family=Play&display=swap');
 
-nav ul.active li a {
-    color: white;
-    font-weight: bold;
-}
+
+

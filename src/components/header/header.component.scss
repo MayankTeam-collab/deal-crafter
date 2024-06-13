@@ -3,9 +3,7 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 40px;
-    position: relative;
-    bottom: 250px;
-    left: 760px;
+    
 
     nav ul {
         display: flex;
@@ -17,32 +15,12 @@ header {
         margin-left: 50px;
         font-size: x-large;
         color: white;
-    }
-
-    nav ul li:hover {
-        text-decoration: underline;
-        color: whitesmoke;
-    }
-
-    nav ul li a {
-        text-decoration: none;
-        color: white;
-        font-weight: bold;
-    }
+    }   text-decoration: none;
+}
 
 
-    .logo {
-        display: flex;
-        align-items: center;
-        gap: 10px;
-    }
-
-    .logo img {
-        width: 30px;
-    }
-
-    .logo h1 {
-        font-size: 1.2rem;
-        font-weight: bold;
-    }
+.logo{
+    height: 40px;
+    width: 50px;
+    border-radius: 15px;
 }
