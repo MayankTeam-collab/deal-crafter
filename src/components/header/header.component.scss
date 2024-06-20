@@ -2,25 +2,38 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 40px;
-    
-
-    nav ul {
-        display: flex;
-        list-style: none;
-        gap: 20px;
+    position: fixed;
+    right:10px;
+    width: 100%;
+    .logo {
+        height: 60px;
+        width: 100px;
+        border-radius: 15px;
     }
 
-    nav ul li {
-        margin-left: 50px;
-        font-size: x-large;
-        color: white;
-    }   text-decoration: none;
-}
+    nav {
+        ul {
+            display: flex;
+            list-style: none;
+            gap: 20px;
 
+            li {
+                margin-left: 50px;
+                font-size: x-large;
+                font-weight: bold;
 
-.logo{
-    height: 40px;
-    width: 50px;
-    border-radius: 15px;
+                a {
+                    text-decoration: none;
+                    font-size: 28px;
+                    font-size: larger;
+                    font-family: sans-serif;
+                    color: black;
+                }
+            }
+
+            :hover {
+                text-decoration: underline;
+            }
+        }
+    }
 }
