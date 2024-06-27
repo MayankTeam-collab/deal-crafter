@@ -4,21 +4,24 @@
 }
 
 section-rotate-image{
+    z-index: -1;
     h1{
         color: #575757;
         font-size: 35px;
         font-weight: 400;
         margin-bottom: 10px;
+        z-index: -1;
     }
 }
 
 #target{
-    z-index: 5;
+   
     position: relative;
     top: 6rem;
     margin-top: -10rem;
     margin-bottom: 10px;
     min-height: 20rem;
+ 
 }
 
 .font-size-greater {
@@ -32,7 +35,8 @@ section-rotate-image{
     background-color: antiquewhite;
     width: 40%;
     position: relative;
-    left: 900px;
+    left: 60%;
+    right: 0%;
     padding: 20px;
     
 }
