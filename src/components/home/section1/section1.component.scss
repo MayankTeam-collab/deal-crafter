@@ -1,11 +1,16 @@
-.section1{
-    background-color: whitesmoke;
-    
+.section1 {
+    background-color: white;
+    padding: 20px;
+    height: 100%;
+    width: 100%;
 }
 
-section-rotate-image{
+.section-rotate-image {
     z-index: -1;
-    h1{
+    text-align: center;
+    margin-bottom: 20px;
+
+    h1 {
         color: #575757;
         font-size: 35px;
         font-weight: 400;
@@ -14,14 +19,12 @@ section-rotate-image{
     }
 }
 
-#target{
-   
+#target {
     position: relative;
     top: 6rem;
     margin-top: -10rem;
     margin-bottom: 10px;
     min-height: 20rem;
- 
 }
 
 .font-size-greater {
@@ -30,13 +33,73 @@ section-rotate-image{
     color: #232ae5;
 }
 
-.section1-content{
-    height: 50%;
+.section1-content {
     background-color: antiquewhite;
     width: 40%;
-    position: relative;
-    left: 60%;
-    right: 0%;
+    margin-left: auto;
+    margin-right: auto;
     padding: 20px;
-    
+    text-align: center;
+}
+
+/* Responsive Styles */
+@media (max-width: 1200px) {
+    .font-size-greater {
+        font-size: 6rem;
+    }
+
+    .section1-content {
+        width: 50%;
+    }
+}
+
+@media (max-width: 992px) {
+    .font-size-greater {
+        font-size: 5rem;
+    }
+
+    .section1-content {
+        width: 60%;
+    }
+}
+
+@media (max-width: 768px) {
+    .font-size-greater {
+        font-size: 4rem;
+    }
+
+    .section1-content {
+        width: 80%;
+    }
+}
+
+@media (max-width: 576px) {
+    .font-size-greater {
+        font-size: 3rem;
+    }
+
+    .section1-content {
+        width: 90%;
+    }
+
+    #target {
+        top: 3rem;
+        margin-top: -5rem;
+    }
+}
+
+@media (max-width: 400px) {
+    .font-size-greater {
+        font-size: 2rem;
+    }
+
+    .section1-content {
+        width: 100%;
+        padding: 10px;
+    }
+
+    #target {
+        top: 2rem;
+        margin-top: -3rem;
+    }
 }
