@@ -21,31 +21,38 @@
 
 #target {
     position: relative;
-    top: 6rem;
-    margin-top: -10rem;
+    top: 96px;
+    /* 6rem * 16px */
+    margin-top: -160px;
+    /* -10rem * 16px */
     margin-bottom: 10px;
-    min-height: 20rem;
+    min-height: 320px;
+    /* 20rem * 16px */
 }
 
 .font-size-greater {
-    font-size: 7rem;
+    font-size: 112px;
+    /* 7rem * 16px */
     letter-spacing: .5px;
     color: #232ae5;
 }
 
 .section1-content {
-    background-color: antiquewhite;
+    background-color: #fcfafa;
     width: 40%;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 20px;
+    position: relative;
+    left: 800px;
+    padding: 50px 20px;
     text-align: center;
+    border: 1px solid #a3a2a2;
+    border-radius: 5px;
 }
 
 /* Responsive Styles */
 @media (max-width: 1200px) {
     .font-size-greater {
-        font-size: 6rem;
+        font-size: 96px;
+        /* 6rem * 16px */
     }
 
     .section1-content {
@@ -55,7 +62,8 @@
 
 @media (max-width: 992px) {
     .font-size-greater {
-        font-size: 5rem;
+        font-size: 80px;
+        /* 5rem * 16px */
     }
 
     .section1-content {
@@ -65,7 +73,8 @@
 
 @media (max-width: 768px) {
     .font-size-greater {
-        font-size: 4rem;
+        font-size: 64px;
+        /* 4rem * 16px */
     }
 
     .section1-content {
@@ -75,7 +84,8 @@
 
 @media (max-width: 576px) {
     .font-size-greater {
-        font-size: 3rem;
+        font-size: 48px;
+        /* 3rem * 16px */
     }
 
     .section1-content {
@@ -83,14 +93,17 @@
     }
 
     #target {
-        top: 3rem;
-        margin-top: -5rem;
+        top: 48px;
+        /* 3rem * 16px */
+        margin-top: -80px;
+        /* -5rem * 16px */
     }
 }
 
 @media (max-width: 400px) {
     .font-size-greater {
-        font-size: 2rem;
+        font-size: 32px;
+        /* 2rem * 16px */
     }
 
     .section1-content {
@@ -99,7 +112,9 @@
     }
 
     #target {
-        top: 2rem;
-        margin-top: -3rem;
+        top: 32px;
+        /* 2rem * 16px */
+        margin-top: -48px;
+        /* -3rem * 16px */
     }
 }
