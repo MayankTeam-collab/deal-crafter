@@ -9,12 +9,14 @@
 }
 
 .hero h2 {
-    font-size: 48px; /* 3em * 16px */
+    font-size: 48px;
+    /* 3em * 16px */
     margin-bottom: 20px;
 }
 
 .hero h3 {
-    font-size: 32px; /* 2em * 16px */
+    font-size: 32px;
+    /* 2em * 16px */
     margin-bottom: 40px;
 }
 
@@ -40,18 +42,21 @@
 }
 
 .option h4 {
-    font-size: 24px; /* 1.5em * 16px */
+    font-size: 24px;
+    /* 1.5em * 16px */
     margin-bottom: 10px;
 }
 
 /* Responsive Styles */
 @media (max-width: 992px) {
     .hero h2 {
-        font-size: 40px; /* 2.5em * 16px */
+        font-size: 40px;
+        /* 2.5em * 16px */
     }
 
     .hero h3 {
-        font-size: 28.8px; /* 1.8em * 16px */
+        font-size: 28.8px;
+        /* 1.8em * 16px */
     }
 
     .option {
@@ -65,11 +70,13 @@
 
 @media (max-width: 768px) {
     .hero h2 {
-        font-size: 32px; /* 2em * 16px */
+        font-size: 32px;
+        /* 2em * 16px */
     }
 
     .hero h3 {
-        font-size: 24px; /* 1.5em * 16px */
+        font-size: 24px;
+        /* 1.5em * 16px */
     }
 
     .option {
@@ -83,11 +90,13 @@
 
 @media (max-width: 576px) {
     .hero h2 {
-        font-size: 28.8px; /* 1.8em * 16px */
+        font-size: 28.8px;
+        /* 1.8em * 16px */
     }
 
     .hero h3 {
-        font-size: 20.8px; /* 1.3em * 16px */
+        font-size: 20.8px;
+        /* 1.3em * 16px */
     }
 
     .option img {
@@ -97,11 +106,13 @@
 
 @media (max-width: 400px) {
     .hero h2 {
-        font-size: 24px; /* 1.5em * 16px */
+        font-size: 24px;
+        /* 1.5em * 16px */
     }
 
     .hero h3 {
-        font-size: 17.6px; /* 1.1em * 16px */
+        font-size: 17.6px;
+        /* 1.1em * 16px */
     }
 
     .option img {

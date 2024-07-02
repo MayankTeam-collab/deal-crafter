@@ -8,9 +8,7 @@ import { FooterComponent } from '../footer/footer.component';
   selector: 'app-root',
   standalone: true,
   imports: [RouterOutlet, HomeComponent, HeaderComponent, FooterComponent],
-  templateUrl: './app.component.html',
-  styleUrl: './app.component.scss'
+  templateUrl: './app.component.html'
 })
 export class AppComponent {
-  title = 'Dealcrafters';
 }

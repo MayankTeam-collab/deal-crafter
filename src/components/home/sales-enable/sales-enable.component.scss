@@ -1,4 +1,4 @@
-.section1 {
+.sales-enable {
     background-color: white;
     padding: 20px;
     height: 100%;
@@ -22,22 +22,18 @@
 #target {
     position: relative;
     top: 96px;
-    /* 6rem * 16px */
     margin-top: -160px;
-    /* -10rem * 16px */
     margin-bottom: 10px;
     min-height: 320px;
-    /* 20rem * 16px */
 }
 
 .font-size-greater {
     font-size: 112px;
-    /* 7rem * 16px */
     letter-spacing: .5px;
     color: #232ae5;
 }
 
-.section1-content {
+.sales-enable-content {
     background-color: #fcfafa;
     width: 40%;
     position: relative;
@@ -52,10 +48,9 @@
 @media (max-width: 1200px) {
     .font-size-greater {
         font-size: 96px;
-        /* 6rem * 16px */
     }
 
-    .section1-content {
+    .sales-enable-content {
         width: 50%;
     }
 }
@@ -63,10 +58,9 @@
 @media (max-width: 992px) {
     .font-size-greater {
         font-size: 80px;
-        /* 5rem * 16px */
     }
 
-    .section1-content {
+    .sales-enable-content {
         width: 60%;
     }
 }
@@ -74,10 +68,9 @@
 @media (max-width: 768px) {
     .font-size-greater {
         font-size: 64px;
-        /* 4rem * 16px */
     }
 
-    .section1-content {
+    .sales-enable-content {
         width: 80%;
     }
 }
@@ -85,36 +78,30 @@
 @media (max-width: 576px) {
     .font-size-greater {
         font-size: 48px;
-        /* 3rem * 16px */
     }
 
-    .section1-content {
+    .sales-enable-content {
         width: 90%;
     }
 
     #target {
         top: 48px;
-        /* 3rem * 16px */
         margin-top: -80px;
-        /* -5rem * 16px */
     }
 }
 
 @media (max-width: 400px) {
     .font-size-greater {
         font-size: 32px;
-        /* 2rem * 16px */
     }
 
-    .section1-content {
+    .sales-enable-content {
         width: 100%;
         padding: 10px;
     }
 
     #target {
         top: 32px;
-        /* 2rem * 16px */
         margin-top: -48px;
-        /* -3rem * 16px */
     }
 }
