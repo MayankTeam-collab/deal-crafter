@@ -1,39 +1,38 @@
 .sales-enable {
-    background-color: white;
-    padding: 20px;
-    height: 100%;
-    width: 100%;
-}
+  background-color: white;
+  padding: 20px;
+  height: 100%;
+  width: 100%;
 
-.section-rotate-image {
+  .section-rotate-image {
     z-index: -1;
     text-align: center;
     margin-bottom: 20px;
 
     h1 {
-        color: #575757;
-        font-size: 35px;
-        font-weight: 400;
-        margin-bottom: 10px;
-        z-index: -1;
+      color: #575757;
+      font-size: 35px;
+      font-weight: 400;
+      margin-bottom: 10px;
+      z-index: -1;
     }
-}
+  }
 
-#target {
+  #target {
     position: relative;
     top: 96px;
     margin-top: -160px;
     margin-bottom: 10px;
     min-height: 320px;
-}
+  }
 
-.font-size-greater {
+  .font-size-greater {
     font-size: 112px;
     letter-spacing: .5px;
     color: #232ae5;
-}
+  }
 
-.sales-enable-content {
+  .sales-enable-content {
     background-color: #fcfafa;
     width: 40%;
     position: relative;
@@ -42,66 +41,67 @@
     text-align: center;
     border: 1px solid #a3a2a2;
     border-radius: 5px;
-}
+  }
 
-/* Responsive Styles */
-@media (max-width: 1200px) {
+  // Responsive Styles
+  @media (max-width: 1200px) {
     .font-size-greater {
-        font-size: 96px;
+      font-size: 96px;
     }
 
     .sales-enable-content {
-        width: 50%;
+      width: 50%;
     }
-}
+  }
 
-@media (max-width: 992px) {
+  @media (max-width: 992px) {
     .font-size-greater {
-        font-size: 80px;
+      font-size: 80px;
     }
 
     .sales-enable-content {
-        width: 60%;
+      width: 60%;
     }
-}
+  }
 
-@media (max-width: 768px) {
+  @media (max-width: 768px) {
     .font-size-greater {
-        font-size: 64px;
+      font-size: 64px;
     }
 
     .sales-enable-content {
-        width: 80%;
+      width: 80%;
     }
-}
+  }
 
-@media (max-width: 576px) {
+  @media (max-width: 576px) {
     .font-size-greater {
-        font-size: 48px;
+      font-size: 48px;
     }
 
     .sales-enable-content {
-        width: 90%;
+      width: 90%;
     }
 
     #target {
-        top: 48px;
-        margin-top: -80px;
+      top: 48px;
+      margin-top: -80px;
     }
-}
+  }
 
-@media (max-width: 400px) {
+  @media (max-width: 400px) {
     .font-size-greater {
-        font-size: 32px;
+      font-size: 32px;
     }
 
     .sales-enable-content {
-        width: 100%;
-        padding: 10px;
+      width: 100%;
+      padding: 10px;
     }
 
     #target {
-        top: 32px;
-        margin-top: -48px;
+      top: 32px;
+      margin-top: -48px;
     }
+  }
 }
