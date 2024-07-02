@@ -1,0 +1,129 @@
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+
+    .hero {
+        text-align: center;
+
+        h2 {
+            font-size: 48px; // 3em * 16px
+            margin-bottom: 20px;
+        }
+
+        h3 {
+            font-size: 32px; // 2em * 16px
+            margin-bottom: 40px;
+        }
+
+        .options {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+
+            .option {
+                text-align: center;
+                width: 30%;
+                margin-bottom: 40px;
+
+                img {
+                    width: 170px;
+                    height: 120px;
+                    margin-bottom: 20px;
+                    border-radius: 50px;
+                }
+
+                h4 {
+                    font-size: 24px; // 1.5em * 16px
+                    margin-bottom: 10px;
+                }
+            }
+        }
+    }
+
+    // Responsive Styles
+    @media (max-width: 992px) {
+        .hero {
+            h2 {
+                font-size: 40px; // 2.5em * 16px
+            }
+
+            h3 {
+                font-size: 28.8px; // 1.8em * 16px
+            }
+
+            .options {
+                .option {
+                    width: 45%;
+
+                    img {
+                        width: 130px;
+                    }
+                }
+            }
+        }
+    }
+
+    @media (max-width: 768px) {
+        .hero {
+            h2 {
+                font-size: 32px; // 2em * 16px
+            }
+
+            h3 {
+                font-size: 24px; // 1.5em * 16px
+            }
+
+            .options {
+                .option {
+                    width: 100%;
+
+                    img {
+                        width: 120px;
+                    }
+                }
+            }
+        }
+    }
+
+    @media (max-width: 576px) {
+        .hero {
+            h2 {
+                font-size: 28.8px; // 1.8em * 16px
+            }
+
+            h3 {
+                font-size: 20.8px; // 1.3em * 16px
+            }
+
+            .options {
+                .option {
+                    img {
+                        width: 100px;
+                    }
+                }
+            }
+        }
+    }
+
+    @media (max-width: 400px) {
+        .hero {
+            h2 {
+                font-size: 24px; // 1.5em * 16px
+            }
+
+            h3 {
+                font-size: 17.6px; // 1.1em * 16px
+            }
+
+            .options {
+                .option {
+                    img {
+                        width: 80px;
+                    }
+                }
+            }
+        }
+    }
+}
